@@ -1,0 +1,13 @@
+{
+  "domain": "owntracks_ng",
+  "name": "OwnTracks NG",
+  "documentation": "https://github.com/kvj/hass_OwnTracks_NG",
+  "issue_tracker": "https://github.com/kvj/hass_OwnTracks_NG/issues",
+  "after_dependencies": ["cloud"],
+  "dependencies": ["webhook"],
+  "codeowners": ["@kvj"],
+  "requirements": ["PyNaCl==1.5.0"],
+  "iot_class": "local_push",
+  "config_flow": true,
+  "version": "0.1.0"
+}

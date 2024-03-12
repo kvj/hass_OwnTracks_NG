@@ -1,0 +1,30 @@
+{
+  "title": "OwnTracks NG",
+  "config": {
+    "step": {
+      "user": {
+        "title": "New OwnTracks NG configuration",
+        "data": {
+          "name": "Name",
+          "webhook": "Webhook ID",
+          "device_trackers": "Tracker entities to report back"
+        }
+      }
+    },
+    "error": {
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "OwnTracks NG configuration",
+        "data": {
+          "webhook": "Webhook ID",
+          "device_trackers": "Tracker entities to report back"
+        }
+      }
+    },
+    "error": {
+    }
+  }
+}
